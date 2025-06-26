@@ -5,7 +5,9 @@
   "type": "module",
   "main": "src/index.js",
   "scripts": {
-    "dev": "nodemon index.js"
+    "dev": "nodemon index.js",
+    "build": "npx prisma migrate deploy && npx prisma generate",
+    "start": "node index.js"
   },
   "author": "Shreehari R Acharya - shreehari.dev",
   "license": "ISC",
