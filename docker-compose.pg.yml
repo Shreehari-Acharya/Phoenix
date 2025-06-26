@@ -1,0 +1,15 @@
+services:
+  postgres:
+    image: postgres:latest
+    container_name: IMF_PGDB
+    environment:
+      POSTGRES_USER: imfhead
+      POSTGRES_PASSWORD: dev-super-strong-password
+      POSTGRES_DB: imf_gadgets_db
+    ports:
+      - "5432:5432"
+    volumes:
+      - ./imf-data:/var/lib/postgresql/data
+
+volumes:
+  imf-data:

@@ -1,0 +1,22 @@
+{
+  "name": "imf-backend",
+  "version": "1.0.0",
+  "description": "IMF Gadget API Development Challenge",
+  "type": "module",
+  "main": "src/index.js",
+  "scripts": {
+    "dev": "nodemon index.js"
+  },
+  "author": "Shreehari R Acharya - shreehari.dev",
+  "license": "ISC",
+  "dependencies": {
+    "@prisma/client": "^6.10.1",
+    "cors": "^2.8.5",
+    "express": "^5.1.0",
+    "jsonwebtoken": "^9.0.2",
+    "nodemon": "^3.1.10"
+  },
+  "devDependencies": {
+    "prisma": "^6.10.1"
+  }
+}
