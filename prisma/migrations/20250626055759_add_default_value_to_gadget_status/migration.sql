@@ -1,0 +1,2 @@
+-- AlterTable
+ALTER TABLE "gadget" ALTER COLUMN "status" SET DEFAULT 'AVAILABLE';
